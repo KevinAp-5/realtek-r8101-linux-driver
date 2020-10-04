@@ -1,8 +1,8 @@
-cmd_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o :=  gcc -Wp,-MD,/home/adithya/realtek-r8101-linux-driver/src/.rtltool.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/9/include -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O3 --param=allow-store-data-races=0 -Wframe-larger-than=2048 -fno-stack-protector -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fomit-frame-pointer -fno-var-tracking-assignments -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -fmacro-prefix-map=./= -fcf-protection=none -Wno-packed-not-aligned -DCONFIG_R8101_NAPI -DCONFIG_R8101_VLAN -DCONFIG_ASPM -DENABLE_S5WOL -DENABLE_EEE  -DMODULE  -DKBUILD_BASENAME='"rtltool"' -DKBUILD_MODNAME='"r8101"' -c -o /home/adithya/realtek-r8101-linux-driver/src/rtltool.o /home/adithya/realtek-r8101-linux-driver/src/rtltool.c
+cmd_/home/kevin/realtek-r8101-linux-driver/src/rtltool.o := gcc -Wp,-MD,/home/kevin/realtek-r8101-linux-driver/src/.rtltool.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/7/include  -I./arch/x86/include -I./arch/x86/include/generated  -I./include -I./arch/x86/include/uapi -I./arch/x86/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -Iubuntu/include  -include ./include/linux/compiler_types.h -D__KERNEL__ -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Wno-format-security -std=gnu89 -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -m64 -falign-jumps=1 -falign-loops=1 -mno-80387 -mno-fp-ret-in-387 -mpreferred-stack-boundary=3 -mskip-rax-setup -mtune=generic -mno-red-zone -mcmodel=kernel -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_SSSE3=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -DCONFIG_AS_AVX512=1 -DCONFIG_AS_SHA1_NI=1 -DCONFIG_AS_SHA256_NI=1 -Wno-sign-compare -fno-asynchronous-unwind-tables -mindirect-branch=thunk-extern -mindirect-branch-register -fno-jump-tables -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -mrecord-mcount -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-merge-all-constants -fmerge-constants -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -DCONFIG_R8101_NAPI -DCONFIG_R8101_VLAN -DCONFIG_ASPM -DENABLE_S5WOL -DENABLE_EEE  -DMODULE  -DKBUILD_BASENAME='"rtltool"' -DKBUILD_MODNAME='"r8101"' -c -o /home/kevin/realtek-r8101-linux-driver/src/rtltool.o /home/kevin/realtek-r8101-linux-driver/src/rtltool.c
 
-source_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := /home/adithya/realtek-r8101-linux-driver/src/rtltool.c
+source_/home/kevin/realtek-r8101-linux-driver/src/rtltool.o := /home/kevin/realtek-r8101-linux-driver/src/rtltool.c
 
-deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
+deps_/home/kevin/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/kconfig.h \
     $(wildcard include/config/cpu/big/endian.h) \
     $(wildcard include/config/booger.h) \
@@ -10,6 +10,7 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/compiler_types.h \
     $(wildcard include/config/have/arch/compiler/h.h) \
     $(wildcard include/config/enable/must/check.h) \
+    $(wildcard include/config/optimize/inlining.h) \
     $(wildcard include/config/cc/has/asm/inline.h) \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
@@ -64,21 +65,18 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/illegal/pointer/value.h) \
     $(wildcard include/config/page/poisoning/zero.h) \
   include/linux/const.h \
-  include/vdso/const.h \
   include/uapi/linux/const.h \
   include/linux/kernel.h \
     $(wildcard include/config/preempt/voluntary.h) \
     $(wildcard include/config/debug/atomic/sleep.h) \
-    $(wildcard include/config/preempt/rt.h) \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/prove/locking.h) \
+    $(wildcard include/config/arch/has/refcount.h) \
     $(wildcard include/config/panic/timeout.h) \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
   include/linux/limits.h \
   include/uapi/linux/limits.h \
-  include/vdso/limits.h \
   include/linux/linkage.h \
-    $(wildcard include/config/x86.h) \
   include/linux/stringify.h \
   include/linux/export.h \
     $(wildcard include/config/modversions.h) \
@@ -103,10 +101,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/x86/alignment/16.h) \
   include/linux/bitops.h \
   include/linux/bits.h \
-    $(wildcard include/config/cc/is/gcc.h) \
-    $(wildcard include/config/gcc/version.h) \
-  include/vdso/bits.h \
-  include/linux/build_bug.h \
   arch/x86/include/asm/bitops.h \
     $(wildcard include/config/x86/cmov.h) \
   arch/x86/include/asm/rmwcc.h \
@@ -125,15 +119,14 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/matom.h) \
     $(wildcard include/config/paravirt.h) \
   arch/x86/include/asm/disabled-features.h \
+    $(wildcard include/config/x86/intel/mpx.h) \
     $(wildcard include/config/x86/smap.h) \
-    $(wildcard include/config/x86/umip.h) \
+    $(wildcard include/config/x86/intel/umip.h) \
     $(wildcard include/config/x86/intel/memory/protection/keys.h) \
     $(wildcard include/config/x86/5level.h) \
     $(wildcard include/config/page/table/isolation.h) \
   include/asm-generic/bitops/const_hweight.h \
-  include/asm-generic/bitops/instrumented-atomic.h \
-  include/asm-generic/bitops/instrumented-non-atomic.h \
-  include/asm-generic/bitops/instrumented-lock.h \
+  include/asm-generic/bitops-instrumented.h \
   include/asm-generic/bitops/le.h \
   arch/x86/include/uapi/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
@@ -154,6 +147,7 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/early/printk.h) \
     $(wildcard include/config/printk/nmi.h) \
     $(wildcard include/config/printk.h) \
+    $(wildcard include/config/kmsg/ids.h) \
     $(wildcard include/config/dynamic/debug.h) \
   include/linux/init.h \
     $(wildcard include/config/strict/kernel/rwx.h) \
@@ -166,6 +160,11 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/x86/l1/cache/shift.h) \
     $(wildcard include/config/x86/internode/cache/shift.h) \
     $(wildcard include/config/x86/vsmp.h) \
+  include/linux/dynamic_debug.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/have/arch/jump/label/relative.h) \
+  arch/x86/include/asm/jump_label.h \
+  include/linux/build_bug.h \
   arch/x86/include/asm/div64.h \
   include/asm-generic/div64.h \
   include/linux/stat.h \
@@ -173,7 +172,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/uapi/linux/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
-    $(wildcard include/config/posix/timers.h) \
   include/linux/seqlock.h \
     $(wildcard include/config/debug/lock/alloc.h) \
   include/linux/spinlock.h \
@@ -210,14 +208,11 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/time64.h \
   include/linux/math64.h \
     $(wildcard include/config/arch/supports/int128.h) \
-  include/vdso/math64.h \
-  include/vdso/time64.h \
   include/uapi/linux/time.h \
   include/uapi/linux/time_types.h \
   arch/x86/include/asm/current.h \
   arch/x86/include/asm/thread_info.h \
     $(wildcard include/config/vm86.h) \
-    $(wildcard include/config/x86/iopl/ioperm.h) \
     $(wildcard include/config/frame/pointer.h) \
     $(wildcard include/config/compat.h) \
     $(wildcard include/config/ia32/emulation.h) \
@@ -243,6 +238,7 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/asm/ist.h \
   arch/x86/include/uapi/asm/ist.h \
   include/video/edid.h \
+    $(wildcard include/config/x86.h) \
   include/uapi/video/edid.h \
   arch/x86/include/asm/page_64_types.h \
     $(wildcard include/config/dynamic/memory/layout.h) \
@@ -263,7 +259,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/asm/cpufeature.h \
     $(wildcard include/config/x86/feature/names.h) \
   arch/x86/include/asm/processor.h \
-    $(wildcard include/config/x86/vmx/feature/names.h) \
     $(wildcard include/config/kvm.h) \
     $(wildcard include/config/stackprotector.h) \
     $(wildcard include/config/paravirt/xxl.h) \
@@ -288,16 +283,12 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/asm-generic/kmap_types.h \
   arch/x86/include/asm/pgtable_types.h \
     $(wildcard include/config/mem/soft/dirty.h) \
-    $(wildcard include/config/have/arch/userfaultfd/wp.h) \
     $(wildcard include/config/proc/fs.h) \
   arch/x86/include/asm/pgtable_64_types.h \
   arch/x86/include/asm/sparsemem.h \
   include/asm-generic/pgtable-nop4d.h \
   arch/x86/include/asm/nospec-branch.h \
   include/linux/static_key.h \
-  include/linux/jump_label.h \
-    $(wildcard include/config/have/arch/jump/label/relative.h) \
-  arch/x86/include/asm/jump_label.h \
   arch/x86/include/asm/alternative-asm.h \
   arch/x86/include/asm/msr-index.h \
   arch/x86/include/asm/spinlock_types.h \
@@ -342,8 +333,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/asm/fpu/types.h \
   arch/x86/include/asm/unwind_hints.h \
   arch/x86/include/asm/orc_types.h \
-  arch/x86/include/asm/vmxfeatures.h \
-  arch/x86/include/asm/vdso/processor.h \
   include/linux/personality.h \
   include/uapi/linux/personality.h \
   include/linux/err.h \
@@ -359,8 +348,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/mmiowb.h) \
   include/linux/spinlock_types.h \
   include/linux/lockdep.h \
-    $(wildcard include/config/prove/raw/lock/nesting.h) \
-    $(wildcard include/config/preempt/lock.h) \
     $(wildcard include/config/lockdep.h) \
     $(wildcard include/config/lock/stat.h) \
   include/linux/rwlock_types.h \
@@ -413,8 +400,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/asm/timex.h \
   arch/x86/include/asm/tsc.h \
     $(wildcard include/config/x86/tsc.h) \
-  include/vdso/time32.h \
-  include/vdso/time.h \
   include/linux/uidgid.h \
     $(wildcard include/config/multiuser.h) \
     $(wildcard include/config/user/ns.h) \
@@ -436,6 +421,7 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/mmzone.h \
     $(wildcard include/config/force/max/zoneorder.h) \
     $(wildcard include/config/memory/isolation.h) \
+    $(wildcard include/config/shuffle/page/allocator.h) \
     $(wildcard include/config/zsmalloc.h) \
     $(wildcard include/config/memcg.h) \
     $(wildcard include/config/memory/hotplug.h) \
@@ -458,7 +444,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/uapi/linux/wait.h \
   include/linux/numa.h \
     $(wildcard include/config/nodes/shift.h) \
-    $(wildcard include/config/numa/keep/meminfo.h) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
@@ -502,35 +487,43 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/debug/rwsems.h) \
   include/linux/osq_lock.h \
   include/linux/completion.h \
-  include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/uprobes.h) \
   include/linux/errno.h \
   include/uapi/linux/errno.h \
+  arch/x86/include/asm/uprobes.h \
+  include/linux/notifier.h \
+  include/linux/mutex.h \
+    $(wildcard include/config/mutex/spin/on/owner.h) \
+    $(wildcard include/config/debug/mutexes.h) \
+  include/linux/debug_locks.h \
+    $(wildcard include/config/debug/locking/api/selftests.h) \
+  include/linux/srcu.h \
+    $(wildcard include/config/tiny/srcu.h) \
+    $(wildcard include/config/srcu.h) \
   include/linux/workqueue.h \
     $(wildcard include/config/debug/objects/work.h) \
     $(wildcard include/config/freezer.h) \
     $(wildcard include/config/wq/watchdog.h) \
   include/linux/timer.h \
     $(wildcard include/config/debug/objects/timers.h) \
+    $(wildcard include/config/preempt/rt.h) \
     $(wildcard include/config/no/hz/common.h) \
   include/linux/ktime.h \
   include/linux/jiffies.h \
-  include/vdso/jiffies.h \
   include/generated/timeconst.h \
-  include/vdso/ktime.h \
   include/linux/timekeeping.h \
   include/linux/timekeeping32.h \
   include/linux/debugobjects.h \
     $(wildcard include/config/debug/objects.h) \
     $(wildcard include/config/debug/objects/free.h) \
+  include/linux/rcu_segcblist.h \
+  include/linux/srcutree.h \
+  include/linux/rcu_node_tree.h \
+    $(wildcard include/config/rcu/fanout.h) \
+    $(wildcard include/config/rcu/fanout/leaf.h) \
   arch/x86/include/asm/mmu.h \
     $(wildcard include/config/modify/ldt/syscall.h) \
-  include/linux/mutex.h \
-    $(wildcard include/config/mutex/spin/on/owner.h) \
-    $(wildcard include/config/debug/mutexes.h) \
-  include/linux/debug_locks.h \
-    $(wildcard include/config/debug/locking/api/selftests.h) \
   include/linux/page-flags.h \
     $(wildcard include/config/arch/uses/pg/uncached.h) \
     $(wildcard include/config/memory/failure.h) \
@@ -541,15 +534,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/arch/has/add/pages.h) \
     $(wildcard include/config/have/arch/nodedata/extension.h) \
     $(wildcard include/config/have/bootmem/info/node.h) \
-  include/linux/notifier.h \
-  include/linux/srcu.h \
-    $(wildcard include/config/tiny/srcu.h) \
-    $(wildcard include/config/srcu.h) \
-  include/linux/rcu_segcblist.h \
-  include/linux/srcutree.h \
-  include/linux/rcu_node_tree.h \
-    $(wildcard include/config/rcu/fanout.h) \
-    $(wildcard include/config/rcu/fanout/leaf.h) \
   arch/x86/include/asm/mmzone.h \
   arch/x86/include/asm/mmzone_64.h \
   arch/x86/include/asm/smp.h \
@@ -580,6 +564,30 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/asm/topology.h \
     $(wildcard include/config/sched/mc/prio.h) \
   include/asm-generic/topology.h \
+  arch/x86/include/asm/realmode.h \
+    $(wildcard include/config/acpi/sleep.h) \
+  arch/x86/include/asm/io.h \
+    $(wildcard include/config/mtrr.h) \
+    $(wildcard include/config/x86/pat.h) \
+  arch/x86/include/generated/asm/early_ioremap.h \
+  include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/generic/early/ioremap.h) \
+  include/asm-generic/iomap.h \
+    $(wildcard include/config/has/ioport/map.h) \
+    $(wildcard include/config/pci.h) \
+    $(wildcard include/config/generic/iomap.h) \
+  include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/no/generic/pci/ioport/map.h) \
+    $(wildcard include/config/generic/pci/iomap.h) \
+  include/asm-generic/io.h \
+    $(wildcard include/config/virt/to/bus.h) \
+  include/linux/logic_pio.h \
+    $(wildcard include/config/indirect/pio.h) \
+  include/linux/fwnode.h \
+  include/linux/vmalloc.h \
+  include/linux/llist.h \
+    $(wildcard include/config/arch/have/nmi/safe/cmpxchg.h) \
+  include/linux/overflow.h \
   arch/x86/include/uapi/asm/vsyscall.h \
   include/asm-generic/fixmap.h \
   arch/x86/include/asm/hardirq.h \
@@ -603,8 +611,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
   include/linux/smp.h \
     $(wildcard include/config/up/late/init.h) \
-  include/linux/llist.h \
-    $(wildcard include/config/arch/have/nmi/safe/cmpxchg.h) \
   include/linux/sysctl.h \
     $(wildcard include/config/sysctl.h) \
   include/uapi/linux/sysctl.h \
@@ -632,6 +638,8 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/kobject_ns.h \
   include/linux/kref.h \
   include/linux/refcount.h \
+    $(wildcard include/config/refcount/full.h) \
+  arch/x86/include/asm/refcount.h \
   include/linux/moduleparam.h \
     $(wildcard include/config/alpha.h) \
     $(wildcard include/config/ia64.h) \
@@ -641,6 +649,28 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/asm-generic/error-injection.h \
   arch/x86/include/asm/module.h \
     $(wildcard include/config/unwinder/orc.h) \
+    $(wildcard include/config/m486.h) \
+    $(wildcard include/config/m586.h) \
+    $(wildcard include/config/m586tsc.h) \
+    $(wildcard include/config/m586mmx.h) \
+    $(wildcard include/config/mcore2.h) \
+    $(wildcard include/config/m686.h) \
+    $(wildcard include/config/mpentiumii.h) \
+    $(wildcard include/config/mpentiumiii.h) \
+    $(wildcard include/config/mpentiumm.h) \
+    $(wildcard include/config/mpentium4.h) \
+    $(wildcard include/config/mk6.h) \
+    $(wildcard include/config/mk8.h) \
+    $(wildcard include/config/melan.h) \
+    $(wildcard include/config/mcrusoe.h) \
+    $(wildcard include/config/mefficeon.h) \
+    $(wildcard include/config/mwinchipc6.h) \
+    $(wildcard include/config/mwinchip3d.h) \
+    $(wildcard include/config/mcyrixiii.h) \
+    $(wildcard include/config/mviac3/2.h) \
+    $(wildcard include/config/mviac7.h) \
+    $(wildcard include/config/mgeodegx1.h) \
+    $(wildcard include/config/mgeode/lx.h) \
   include/asm-generic/module.h \
     $(wildcard include/config/have/mod/arch/specific.h) \
     $(wildcard include/config/modules/use/elf/rel.h) \
@@ -653,13 +683,11 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/pcieaspm.h) \
     $(wildcard include/config/hotplug/pci/pcie.h) \
     $(wildcard include/config/pcie/ptm.h) \
-    $(wildcard include/config/pcie/dpc.h) \
     $(wildcard include/config/pci/ats.h) \
     $(wildcard include/config/pci/pri.h) \
     $(wildcard include/config/pci/pasid.h) \
     $(wildcard include/config/pci/p2pdma.h) \
     $(wildcard include/config/pci/domains/generic.h) \
-    $(wildcard include/config/pci.h) \
     $(wildcard include/config/pcieportbus.h) \
     $(wildcard include/config/pci/domains.h) \
     $(wildcard include/config/pci/quirks.h) \
@@ -685,11 +713,20 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/arch/has/sync/dma/for/cpu/all.h) \
     $(wildcard include/config/devtmpfs.h) \
     $(wildcard include/config/sysfs/deprecated.h) \
-  include/linux/dev_printk.h \
+  include/linux/klist.h \
+  include/linux/pm.h \
+    $(wildcard include/config/vt/console/sleep.h) \
+    $(wildcard include/config/pm.h) \
+    $(wildcard include/config/pm/clk.h) \
+    $(wildcard include/config/pm/generic/domains.h) \
+  include/linux/hrtimer.h \
+    $(wildcard include/config/high/res/timers.h) \
+    $(wildcard include/config/time/low/res.h) \
+    $(wildcard include/config/timerfd.h) \
+  include/linux/hrtimer_defs.h \
+  include/linux/timerqueue.h \
   include/linux/ratelimit.h \
   include/linux/sched.h \
-    $(wildcard include/config/sched/muqss.h) \
-    $(wildcard include/config/high/res/timers.h) \
     $(wildcard include/config/virt/cpu/accounting/native.h) \
     $(wildcard include/config/sched/info.h) \
     $(wildcard include/config/schedstats.h) \
@@ -697,7 +734,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/rt/group/sched.h) \
     $(wildcard include/config/uclamp/task.h) \
     $(wildcard include/config/uclamp/buckets/count.h) \
-    $(wildcard include/config/smt/nice.h) \
     $(wildcard include/config/cgroup/sched.h) \
     $(wildcard include/config/blk/dev/io/trace.h) \
     $(wildcard include/config/psi.h) \
@@ -754,11 +790,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/uapi/linux/kcov.h \
   include/linux/plist.h \
     $(wildcard include/config/debug/plist.h) \
-  include/linux/hrtimer.h \
-    $(wildcard include/config/time/low/res.h) \
-    $(wildcard include/config/timerfd.h) \
-  include/linux/hrtimer_defs.h \
-  include/linux/timerqueue.h \
   include/linux/seccomp.h \
     $(wildcard include/config/seccomp.h) \
     $(wildcard include/config/have/arch/seccomp/filter.h) \
@@ -770,8 +801,8 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/uapi/asm/unistd.h \
   arch/x86/include/generated/uapi/asm/unistd_64.h \
   arch/x86/include/generated/asm/unistd_64_x32.h \
-  arch/x86/include/generated/asm/unistd_32_ia32.h \
   arch/x86/include/asm/ia32_unistd.h \
+  arch/x86/include/generated/asm/unistd_32_ia32.h \
   include/asm-generic/seccomp.h \
   include/uapi/linux/unistd.h \
   include/linux/resource.h \
@@ -793,22 +824,14 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/task/io/accounting.h) \
   include/linux/posix-timers.h \
+    $(wildcard include/config/posix/timers.h) \
   include/linux/alarmtimer.h \
-    $(wildcard include/config/rtc/class.h) \
   include/uapi/linux/rseq.h \
-  include/linux/skip_list.h \
-  include/linux/klist.h \
-  include/linux/pm.h \
-    $(wildcard include/config/vt/console/sleep.h) \
-    $(wildcard include/config/pm.h) \
-    $(wildcard include/config/pm/clk.h) \
-    $(wildcard include/config/pm/generic/domains.h) \
-  include/linux/overflow.h \
-  include/linux/device/bus.h \
-  include/linux/device/class.h \
-  include/linux/device/driver.h \
   arch/x86/include/asm/device.h \
-    $(wildcard include/config/iommu/api.h) \
+    $(wildcard include/config/intel/iommu.h) \
+    $(wildcard include/config/amd/iommu.h) \
+    $(wildcard include/config/sta2x11.h) \
+    $(wildcard include/config/x86/dev/dma/ops.h) \
   include/linux/pm_wakeup.h \
   include/linux/interrupt.h \
     $(wildcard include/config/irq/forced/threading.h) \
@@ -832,28 +855,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/asm/extable.h \
   include/linux/io.h \
     $(wildcard include/config/have/arch/huge/vmap.h) \
-    $(wildcard include/config/has/ioport/map.h) \
-  arch/x86/include/asm/io.h \
-    $(wildcard include/config/mtrr.h) \
-    $(wildcard include/config/x86/pat.h) \
-  arch/x86/include/generated/asm/early_ioremap.h \
-  include/asm-generic/early_ioremap.h \
-    $(wildcard include/config/generic/early/ioremap.h) \
-  include/asm-generic/iomap.h \
-    $(wildcard include/config/generic/iomap.h) \
-  include/asm-generic/pci_iomap.h \
-    $(wildcard include/config/no/generic/pci/ioport/map.h) \
-    $(wildcard include/config/generic/pci/iomap.h) \
-  include/asm-generic/io.h \
-    $(wildcard include/config/generic/ioremap.h) \
-    $(wildcard include/config/virt/to/bus.h) \
-  include/linux/logic_pio.h \
-    $(wildcard include/config/indirect/pio.h) \
-  include/linux/fwnode.h \
-  include/linux/vmalloc.h \
-    $(wildcard include/config/kasan/vmalloc.h) \
-  arch/x86/include/asm/vmalloc.h \
-  arch/x86/include/asm/pgtable_areas.h \
   include/linux/resource_ext.h \
   include/linux/slab.h \
     $(wildcard include/config/debug/slab.h) \
@@ -866,7 +867,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/percpu-refcount.h \
   include/linux/kasan.h \
     $(wildcard include/config/kasan/generic.h) \
-    $(wildcard include/config/kasan/inline.h) \
   include/uapi/linux/pci.h \
   include/uapi/linux/pci_regs.h \
   include/linux/pci_ids.h \
@@ -886,13 +886,11 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/ppc.h) \
     $(wildcard include/config/parisc.h) \
     $(wildcard include/config/sparc64.h) \
-    $(wildcard include/config/x86/intel/mpx.h) \
     $(wildcard include/config/stack/growsup.h) \
     $(wildcard include/config/shmem.h) \
+    $(wildcard include/config/arch/has/pte/devmap.h) \
     $(wildcard include/config/dev/pagemap/ops.h) \
     $(wildcard include/config/device/private.h) \
-    $(wildcard include/config/arch/has/pte/special.h) \
-    $(wildcard include/config/arch/has/pte/devmap.h) \
     $(wildcard include/config/debug/vm/rb.h) \
     $(wildcard include/config/page/poisoning.h) \
     $(wildcard include/config/init/on/alloc/default/on.h) \
@@ -901,7 +899,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/arch/has/set/direct/map.h) \
     $(wildcard include/config/hibernation.h) \
     $(wildcard include/config/hugetlbfs.h) \
-    $(wildcard include/config/mapping/dirty/helpers.h) \
   include/linux/bit_spinlock.h \
   include/linux/shrinker.h \
   include/linux/page_ext.h \
@@ -927,7 +924,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/asm/uaccess_64.h \
   arch/x86/include/asm/fpu/api.h \
     $(wildcard include/config/x86/debug/fpu.h) \
-  include/asm-generic/pgtable_uffd.h \
   arch/x86/include/asm/pgtable_64.h \
   arch/x86/include/asm/pgtable-invert.h \
   include/asm-generic/pgtable.h \
@@ -946,6 +942,7 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/fs/verity.h) \
     $(wildcard include/config/epoll.h) \
     $(wildcard include/config/quota.h) \
+    $(wildcard include/config/blk/dev/loop.h) \
     $(wildcard include/config/fs/dax.h) \
     $(wildcard include/config/mandatory/file/locking.h) \
     $(wildcard include/config/migration.h) \
@@ -972,32 +969,10 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/uapi/linux/fcntl.h \
   arch/x86/include/generated/uapi/asm/fcntl.h \
   include/uapi/asm-generic/fcntl.h \
-  include/uapi/linux/openat2.h \
   include/uapi/linux/fiemap.h \
   include/linux/migrate_mode.h \
   include/linux/percpu-rwsem.h \
   include/linux/rcuwait.h \
-  include/linux/sched/signal.h \
-    $(wildcard include/config/sched/autogroup.h) \
-    $(wildcard include/config/bsd/process/acct.h) \
-    $(wildcard include/config/taskstats.h) \
-  include/linux/signal.h \
-  include/linux/sched/jobctl.h \
-  include/linux/sched/task.h \
-    $(wildcard include/config/have/copy/thread/tls.h) \
-    $(wildcard include/config/have/exit/thread.h) \
-    $(wildcard include/config/arch/wants/dynamic/task/struct.h) \
-    $(wildcard include/config/have/arch/thread/struct/whitelist.h) \
-  include/linux/cred.h \
-    $(wildcard include/config/debug/credentials.h) \
-  include/linux/key.h \
-    $(wildcard include/config/net.h) \
-  include/linux/assoc_array.h \
-    $(wildcard include/config/associative/array.h) \
-  include/linux/sched/user.h \
-    $(wildcard include/config/fanotify.h) \
-    $(wildcard include/config/posix/mqueue.h) \
-    $(wildcard include/config/bpf/syscall.h) \
   include/linux/rcu_sync.h \
   include/linux/delayed_call.h \
   include/linux/errseq.h \
@@ -1026,7 +1001,9 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   arch/x86/include/asm/pci.h \
     $(wildcard include/config/pci/msi/irq/domain.h) \
     $(wildcard include/config/vmd.h) \
-  arch/x86/include/asm/memtype.h \
+  arch/x86/include/asm/pat.h \
+  arch/x86/include/asm/pci_64.h \
+    $(wildcard include/config/calgary/iommu.h) \
   include/asm-generic/pci.h \
   include/linux/pci-dma-compat.h \
   include/linux/dma-mapping.h \
@@ -1078,9 +1055,7 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/garp.h) \
     $(wildcard include/config/mrp.h) \
     $(wildcard include/config/cgroup/net/prio.h) \
-    $(wildcard include/config/macsec.h) \
     $(wildcard include/config/net/flow/limit.h) \
-    $(wildcard include/config/ethtool/netlink.h) \
   include/linux/delay.h \
   arch/x86/include/asm/delay.h \
   include/asm-generic/delay.h \
@@ -1127,10 +1102,10 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/net/redirect.h) \
     $(wildcard include/config/net/rx/busy/poll.h) \
     $(wildcard include/config/network/secmark.h) \
+    $(wildcard include/config/net.h) \
     $(wildcard include/config/have/efficient/unaligned/access.h) \
     $(wildcard include/config/network/phy/timestamping.h) \
     $(wildcard include/config/xfrm.h) \
-    $(wildcard include/config/mptcp.h) \
     $(wildcard include/config/netfilter/xt/target/trace.h) \
     $(wildcard include/config/nf/tables.h) \
     $(wildcard include/config/ip/vs.h) \
@@ -1140,6 +1115,7 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/arch/random.h) \
   include/linux/once.h \
   include/uapi/linux/random.h \
+  include/linux/prandom.h \
   arch/x86/include/asm/archrandom.h \
   include/uapi/linux/net.h \
   include/linux/textsearch.h \
@@ -1176,13 +1152,9 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/net/netns/core.h \
   include/net/netns/mib.h \
     $(wildcard include/config/xfrm/statistics.h) \
-    $(wildcard include/config/tls.h) \
   include/net/snmp.h \
   include/uapi/linux/snmp.h \
   include/linux/u64_stats_sync.h \
-  arch/x86/include/asm/local64.h \
-  include/asm-generic/local64.h \
-  arch/x86/include/asm/local.h \
   include/net/netns/unix.h \
   include/net/netns/packet.h \
   include/net/netns/ipv4.h \
@@ -1194,7 +1166,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/net/inet_frag.h \
   include/net/netns/ipv6.h \
     $(wildcard include/config/ipv6/multiple/tables.h) \
-    $(wildcard include/config/ipv6/subtrees.h) \
     $(wildcard include/config/ipv6/mroute.h) \
     $(wildcard include/config/ipv6/mroute/multiple/tables.h) \
   include/net/dst_ops.h \
@@ -1235,6 +1206,17 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/ns_common.h \
   include/linux/seq_file_net.h \
   include/linux/seq_file.h \
+  include/linux/cred.h \
+    $(wildcard include/config/debug/credentials.h) \
+  include/linux/key.h \
+  include/linux/assoc_array.h \
+    $(wildcard include/config/associative/array.h) \
+  include/linux/sched/user.h \
+    $(wildcard include/config/fanotify.h) \
+    $(wildcard include/config/posix/mqueue.h) \
+    $(wildcard include/config/bpf/syscall.h) \
+  include/net/dcbnl.h \
+  include/uapi/linux/dcbnl.h \
   include/net/netprio_cgroup.h \
   include/linux/cgroup.h \
     $(wildcard include/config/cgroup/cpuacct.h) \
@@ -1252,7 +1234,6 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/linux/cgroup-defs.h \
   include/linux/bpf-cgroup.h \
   include/linux/bpf.h \
-    $(wildcard include/config/bpf/jit.h) \
     $(wildcard include/config/bpf/stream/parser.h) \
     $(wildcard include/config/inet.h) \
   include/uapi/linux/bpf.h \
@@ -1261,10 +1242,7 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/bpf/lirc/mode2.h) \
   include/uapi/linux/bpf_common.h \
   include/linux/file.h \
-  include/linux/kallsyms.h \
-    $(wildcard include/config/kallsyms/all.h) \
   include/linux/bpf_types.h \
-    $(wildcard include/config/bpf/lsm.h) \
   include/linux/psi_types.h \
   include/linux/kthread.h \
   include/linux/cgroup_subsys.h \
@@ -1285,6 +1263,17 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
     $(wildcard include/config/security/network/xfrm.h) \
     $(wildcard include/config/security/path.h) \
     $(wildcard include/config/securityfs.h) \
+  include/linux/sched/signal.h \
+    $(wildcard include/config/sched/autogroup.h) \
+    $(wildcard include/config/bsd/process/acct.h) \
+    $(wildcard include/config/taskstats.h) \
+  include/linux/signal.h \
+  include/linux/sched/jobctl.h \
+  include/linux/sched/task.h \
+    $(wildcard include/config/have/copy/thread/tls.h) \
+    $(wildcard include/config/have/exit/thread.h) \
+    $(wildcard include/config/arch/wants/dynamic/task/struct.h) \
+    $(wildcard include/config/have/arch/thread/struct/whitelist.h) \
   include/uapi/linux/netlink.h \
   include/uapi/linux/netdevice.h \
   include/linux/if_link.h \
@@ -1293,12 +1282,12 @@ deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o := \
   include/uapi/linux/pkt_cls.h \
   include/uapi/linux/pkt_sched.h \
   include/linux/hashtable.h \
-  /home/adithya/realtek-r8101-linux-driver/src/r8101.h \
+  /home/kevin/realtek-r8101-linux-driver/src/r8101.h \
     $(wildcard include/config/r8101/napi.h) \
     $(wildcard include/config/r8101/vlan.h) \
     $(wildcard include/config/e1000/disable/packet/split.h) \
-  /home/adithya/realtek-r8101-linux-driver/src/rtltool.h \
+  /home/kevin/realtek-r8101-linux-driver/src/rtltool.h \
 
-/home/adithya/realtek-r8101-linux-driver/src/rtltool.o: $(deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o)
+/home/kevin/realtek-r8101-linux-driver/src/rtltool.o: $(deps_/home/kevin/realtek-r8101-linux-driver/src/rtltool.o)
 
-$(deps_/home/adithya/realtek-r8101-linux-driver/src/rtltool.o):
+$(deps_/home/kevin/realtek-r8101-linux-driver/src/rtltool.o):

@@ -28,3 +28,65 @@ make[2]: Entering directory '/usr/src/linux-headers-5.7.0-6.4-liquorix-amd64'
   DEPMOD  5.7.0-6.4-liquorix-amd64
 make[2]: Leaving directory '/usr/src/linux-headers-5.7.0-6.4-liquorix-amd64'
 make[1]: Leaving directory '/home/adithya/realtek-r8101-linux-driver/src'
+-------------------------------
+Sun Sep 13 22:24:56 -03 2020
+make -C src/ clean
+make[1]: Entering directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C /lib/modules/5.4.0-47-generic/build M=/home/kevin/realtek-r8101-linux-driver/src clean
+make[2]: Entering directory '/usr/src/linux-headers-5.4.0-47-generic'
+  CLEAN   /home/kevin/realtek-r8101-linux-driver/src/Module.symvers
+make[2]: Leaving directory '/usr/src/linux-headers-5.4.0-47-generic'
+make[1]: Leaving directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C src/ modules
+make[1]: Entering directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C /lib/modules/5.4.0-47-generic/build M=/home/kevin/realtek-r8101-linux-driver/src modules
+make[2]: Entering directory '/usr/src/linux-headers-5.4.0-47-generic'
+  CC [M]  /home/kevin/realtek-r8101-linux-driver/src/r8101_n.o
+  CC [M]  /home/kevin/realtek-r8101-linux-driver/src/rtl_eeprom.o
+  CC [M]  /home/kevin/realtek-r8101-linux-driver/src/rtltool.o
+  LD [M]  /home/kevin/realtek-r8101-linux-driver/src/r8101.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC [M]  /home/kevin/realtek-r8101-linux-driver/src/r8101.mod.o
+  LD [M]  /home/kevin/realtek-r8101-linux-driver/src/r8101.ko
+make[2]: Leaving directory '/usr/src/linux-headers-5.4.0-47-generic'
+make[1]: Leaving directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C src/ install
+make[1]: Entering directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C /lib/modules/5.4.0-47-generic/build M=/home/kevin/realtek-r8101-linux-driver/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory '/usr/src/linux-headers-5.4.0-47-generic'
+  INSTALL /home/kevin/realtek-r8101-linux-driver/src/r8101.ko
+  DEPMOD  5.4.0-47-generic
+make[2]: Leaving directory '/usr/src/linux-headers-5.4.0-47-generic'
+make[1]: Leaving directory '/home/kevin/realtek-r8101-linux-driver/src'
+-------------------------------
+Sun Oct  4 12:00:06 -03 2020
+make -C src/ clean
+make[1]: Entering directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C /lib/modules/5.4.0-48-generic/build M=/home/kevin/realtek-r8101-linux-driver/src clean
+make[2]: Entering directory '/usr/src/linux-headers-5.4.0-48-generic'
+  CLEAN   /home/kevin/realtek-r8101-linux-driver/src/Module.symvers
+make[2]: Leaving directory '/usr/src/linux-headers-5.4.0-48-generic'
+make[1]: Leaving directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C src/ modules
+make[1]: Entering directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C /lib/modules/5.4.0-48-generic/build M=/home/kevin/realtek-r8101-linux-driver/src modules
+make[2]: Entering directory '/usr/src/linux-headers-5.4.0-48-generic'
+  CC [M]  /home/kevin/realtek-r8101-linux-driver/src/r8101_n.o
+  CC [M]  /home/kevin/realtek-r8101-linux-driver/src/rtl_eeprom.o
+  CC [M]  /home/kevin/realtek-r8101-linux-driver/src/rtltool.o
+  LD [M]  /home/kevin/realtek-r8101-linux-driver/src/r8101.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC [M]  /home/kevin/realtek-r8101-linux-driver/src/r8101.mod.o
+  LD [M]  /home/kevin/realtek-r8101-linux-driver/src/r8101.ko
+make[2]: Leaving directory '/usr/src/linux-headers-5.4.0-48-generic'
+make[1]: Leaving directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C src/ install
+make[1]: Entering directory '/home/kevin/realtek-r8101-linux-driver/src'
+make -C /lib/modules/5.4.0-48-generic/build M=/home/kevin/realtek-r8101-linux-driver/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory '/usr/src/linux-headers-5.4.0-48-generic'
+  INSTALL /home/kevin/realtek-r8101-linux-driver/src/r8101.ko
+  DEPMOD  5.4.0-48-generic
+make[2]: Leaving directory '/usr/src/linux-headers-5.4.0-48-generic'
+make[1]: Leaving directory '/home/kevin/realtek-r8101-linux-driver/src'
